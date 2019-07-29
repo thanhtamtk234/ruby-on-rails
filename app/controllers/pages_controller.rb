@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-    def welcome
+    def welcom
     end
     def contact
         @name='tam'

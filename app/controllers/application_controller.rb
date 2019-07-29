@@ -1,4 +1,4 @@
 class ApplicationController < ActionController::Base
-    get '/welcome' => 'pages#welcome'
+    get '/welcom' => 'pages#welcom'
     get '/contact' => 'pages#contact'
 end
