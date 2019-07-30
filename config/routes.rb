@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get '/welcom' , to:'pages#welcom'
-  
+  get '/welcome' , to:'pages#welcome'
+  get '/contact', to:'pages#contact'
 end
