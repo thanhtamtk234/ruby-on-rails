@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get '/welcome' , to:'pages#welcome'
   get '/contact', to:'pages#contact'
+  resources :pages do
+  end
   get '/list', to: 'book#list'
   get 'book/new'
   post 'book/create'
